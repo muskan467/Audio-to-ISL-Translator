@@ -44,7 +44,7 @@ with open("data_dict.pickle", "rb") as input_file:
 #  Init the Wordnet Lemmatizer
 lemmatizer = WordNetLemmatizer()
 
-
+# Define function to lemmatize each word with its POS tag
 def pos_tagger(nltk_tag):
     if nltk_tag.startswith('J'):
         return wordnet.ADJ
