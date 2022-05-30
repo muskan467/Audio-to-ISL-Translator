@@ -13,8 +13,8 @@ import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 
-nltk.download('wordnet')
-nltk.download('averaged_perceptron_tagger')
+# nltk.download('wordnet')
+# nltk.download('averaged_perceptron_tagger')
 from nltk.corpus import wordnet
 
 nltk.download('punkt')
