@@ -41,6 +41,7 @@ with open("data_dict.pickle", "rb") as input_file:
 # with open("parser.pickle", "rb") as input_file:
 #     parser = cPickle.load(input_file)
 
+#  Init the Wordnet Lemmatizer
 lemmatizer = WordNetLemmatizer()
 
 
