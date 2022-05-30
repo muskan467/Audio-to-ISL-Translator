@@ -34,6 +34,7 @@ os.environ['STANFORD_MODELS'] = os.path.join(BASE_DIR, 'stanford-parser-full-201
 os.environ['JAVAHOME'] = 'C:\\Program Files\\Java\\jdk-9.0.4\\bin\\java.exe'
 print(os.environ.get('CLASSPATH'))
 
+# deserializing pickle file to get back object using the pickle module load
 with open("data_dict.pickle", "rb") as input_file:
     data_dict = cPickle.load(input_file)
 
